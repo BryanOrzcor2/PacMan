@@ -1,6 +1,16 @@
-# Pacman AI - Algoritmos de Búsqueda (Search)
+# Pacman AI - Algoritmos de Búsqueda Informada (A*)
 
-Implementación de algoritmos de búsqueda clásica para el entorno de Pacman (UC Berkeley AI).
+Implementación de algoritmos de búsqueda clásica e informada para el entorno de Pacman (UC Berkeley AI).
+
+**Asignatura:** Inteligencia Artificial  
+**Docente:** Joaquín F. Sánchez  
+**Programa:** Maestría en Inteligencia Artificial  
+**Institución:** Universidad Sergio Arboleda  
+
+### 👥 Integrantes:
+- **Santiago Rodríguez Palacio**
+- **Juan José Segura Flórez**
+- **Bryan Orozco Romero**
 
 ---
 
@@ -95,3 +105,13 @@ python pacman.py -l trickyClassic -p SearchAgent -a fn=astar,prob=FoodSearchProb
 | `--frameTime` | Tiempo de espera entre pasos (velocidad de animación) | `--frameTime 0.05` (más rápido), `--frameTime 0` (instantáneo) |
 | `-t`, `--textGraphics` | Modo solo texto (sin ventana gráfica) | `-t` |
 | `-q`, `--quietTextGraphics` | Salida mínima en terminal sin gráficos | `-q` |
+
+---
+
+## 📂 Archivos Entregables del Taller
+
+- `search.py`: Implementación de los algoritmos de búsqueda ($A^*$, BFS, UCS) con control de visitados `mejor_g` y prueba de meta tardía (*late goal test*).
+- `searchAgents.py`: Implementación de `CornersProblem`, `cornersHeuristic` (TSP), `foodHeuristicManhattan` y `foodHeuristic` (Árbol de Expansión Mínima MST con memoria caché).
+- `resultados.csv`: Consolidado formal de métricas experimentales exigido por la guía.
+- `resultados_experimentales.log`: Traza detallada de ejecución con costos, expansiones y rutas.
+- `informe.tex`: Documento en LaTeX con el desarrollo conceptual, matemático y experimental completo (Actividades 1 a 11).
