@@ -1,0 +1,21 @@
+fecha,algoritmo,heuristica,problema,costo,longitud,nodos_expandidos,tiempo_segundos
+2026-09-20 21:02:47,A*,manhattanHeuristic,PositionSearchProblem,30,30,33,0.00043
+2026-09-20 21:03:06,A*,nullHeuristic,PositionSearchProblem,30,30,33,0.00047
+2026-09-22 19:10:28,A*,foodHeuristic,FoodSearchProblem,8,8,9,0.00156
+2026-09-22 20:02:35,A*,nullHeuristic,FoodSearchProblem,22,22,296,0.01849
+2026-09-22 20:02:43,A*,foodHeuristicManhattan,FoodSearchProblem,22,22,148,0.01738
+2026-09-22 20:02:48,A*,foodHeuristic,FoodSearchProblem,22,22,148,0.04734
+2026-09-22 20:03:14,A*,nullHeuristic,FoodSearchProblem,22,22,296,0.02412
+2026-09-22 20:03:14,A*,foodHeuristicManhattan,FoodSearchProblem,22,22,148,0.02374
+2026-09-22 20:03:14,A*,foodHeuristic,FoodSearchProblem,22,22,148,0.05506
+2026-09-22 20:03:24,A*,foodHeuristicMST,FoodSearchProblem,22,22,78,0.01900
+2026-09-22 20:03:42,A*,foodHeuristicMST,FoodSearchProblem,22,22,78,0.00991
+2026-09-22 20:04:14,A*,foodHeuristic,FoodSearchProblem,22,22,78,0.00535
+2026-09-23 15:33:36,A*,cornersHeuristic,CornersProblem,22,22,78,0.01327
+2026-09-23 15:33:42,A*,foodHeuristic,FoodSearchProblem,22,22,78,0.00724
+2026-09-23 15:33:48,A*,foodHeuristicManhattan,FoodSearchProblem,22,22,148,0.01236
+2026-09-23 15:34:13,A*,foodHeuristic,FoodSearchProblem,22,22,78,0.00992
+2026-09-23 15:37:58,UCS,nullHeuristic,PositionSearchProblem,30,30,33,0.00033
+2026-09-23 15:38:03,A*,nullHeuristic,PositionSearchProblem,30,30,33,0.00047
+2026-09-23 15:52:26,A*,manhattanHeuristic,PositionSearchProblem,30,30,33,0.00068
+2026-09-23 15:54:31,A*,euclideanHeuristic,PositionSearchProblem,30,30,33,0.00097

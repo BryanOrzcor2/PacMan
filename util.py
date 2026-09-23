@@ -57,13 +57,15 @@ class PriorityQueue:
   """  
   def  __init__(self):  
     self.heap = []
+    self.count = 0
     
   def push(self, item, priority):
-      pair = (priority,item)
-      heapq.heappush(self.heap,pair)
+      pair = (priority, self.count, item)
+      self.count += 1
+      heapq.heappush(self.heap, pair)
 
   def pop(self):
-      (priority,item) = heapq.heappop(self.heap)
+      (priority, count, item) = heapq.heappop(self.heap)
       return item
   
   def isEmpty(self):

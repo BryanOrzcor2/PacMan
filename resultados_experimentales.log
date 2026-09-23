@@ -1,0 +1,242 @@
+==================================================
+Fecha y Hora:           2026-09-20 21:02:47
+Algoritmo:              A*
+Heuristica:             manhattanHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00043 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East',
+ 'South', 'South', 'South', 'South', 'East', 'East', 
+ 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-20 21:03:06
+Algoritmo:              A*
+Heuristica:             nullHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00047 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 19:10:28
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   8
+Longitud del camino:    8 pasos
+Nodos expandidos:       9
+Tiempo de busqueda:     0.00156 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'East', 'East', 'East', 'East']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:02:35
+Algoritmo:              A*
+Heuristica:             nullHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       296
+Tiempo de busqueda:     0.01849 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:02:43
+Algoritmo:              A*
+Heuristica:             foodHeuristicManhattan
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       148
+Tiempo de busqueda:     0.01738 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:02:48
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       148
+Tiempo de busqueda:     0.04734 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:03:14
+Algoritmo:              A*
+Heuristica:             nullHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       296
+Tiempo de busqueda:     0.02412 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:03:14
+Algoritmo:              A*
+Heuristica:             foodHeuristicManhattan
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       148
+Tiempo de busqueda:     0.02374 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:03:14
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       148
+Tiempo de busqueda:     0.05506 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:03:24
+Algoritmo:              A*
+Heuristica:             foodHeuristicMST
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.01900 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:03:42
+Algoritmo:              A*
+Heuristica:             foodHeuristicMST
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.00991 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-22 20:04:14
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.00535 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:33:36
+Algoritmo:              A*
+Heuristica:             cornersHeuristic
+Problema:               CornersProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.01327 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:33:42
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.00724 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:33:48
+Algoritmo:              A*
+Heuristica:             foodHeuristicManhattan
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       148
+Tiempo de busqueda:     0.01236 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:34:13
+Algoritmo:              A*
+Heuristica:             foodHeuristic
+Problema:               FoodSearchProblem
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       78
+Tiempo de busqueda:     0.00992 s
+Ruta encontrada:        ['East', 'East', 'East', 'East', 'North', 'North', 'South', 'South', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:37:58
+Algoritmo:              UCS
+Heuristica:             nullHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00033 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:38:03
+Algoritmo:              A*
+Heuristica:             nullHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00047 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:52:26
+Algoritmo:              A*
+Heuristica:             manhattanHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00068 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 15:54:31
+Algoritmo:              A*
+Heuristica:             euclideanHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00097 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+

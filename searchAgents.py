@@ -405,32 +405,62 @@ class AStarFoodSearchAgent(SearchAgent):
     self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
     self.searchType = FoodSearchProblem
 
-def foodHeuristic(state, problem):
+def foodHeuristicManhattan(state, problem):
   """
-  Your heuristic for the FoodSearchProblem goes here.
-  
-  This heuristic must be consistent to ensure correctness.  First, try to come up
-  with an admissible heuristic; almost all admissible heuristics will be consistent
-  as well.
-  
-  If using A* ever finds a solution that is worse uniform cost search finds,
-  your heuristic is *not* consistent, and probably not admissible!  On the other hand,
-  inadmissible or inconsistent heuristics may find optimal solutions, so be careful.
-  
-  The state is a tuple ( pacmanPosition, foodGrid ) where foodGrid is a 
-  Grid (see game.py) of either True or False. You can call foodGrid.asList()
-  to get a list of food coordinates instead.
-  
-  If you want access to info like walls, capsules, etc., you can query the problem.
-  For example, problem.walls gives you a Grid of where the walls are.
-  
-  If you want to *store* information to be reused in other calls to the heuristic,
-  there is a dictionary called problem.heuristicInfo that you can use. For example,
-  if you only want to count the walls once and store that value, try:
-    problem.heuristicInfo['wallCount'] = problem.walls.count()
-  Subsequent calls to this heuristic can access problem.heuristicInfo['wallCount']
+  Heuristica 1 (Basica Admisible):
+  Distancia Manhattan maxima al alimento mas lejano.
+  h(n) = max_{f in F} d_M(p, f)
   """
   position, foodGrid = state
+  foodList = foodGrid.asList()
+  if len(foodList) == 0:
+    return 0
+  return max([util.manhattanDistance(position, food) for food in foodList])
+
+def foodHeuristic(state, problem):
+  """
+  Heuristica 2 (Propuesta Avanzada - Arbol de Expansion Minima MST con Cache):
+  Modela el conjunto de puntos pendientes {posicion} U {alimentos restantes}
+  como un grafo relajado y calcula su Arbol de Expansion Minima (MST) usando Prim.
+  Al ser el MST una cota inferior relajada del camino de recorrido optimo (TSP),
+  garantiza admisibilidad (h_2 <= h*) y consistencia, dominando a la heuristica basica:
+  h_2(n) >= h_1(n).
+  Utiliza problem.heuristicInfo['dist_cache'] como memoria cache para evitar
+  recalcular distancias entre puntos ya visitados.
+  """
+  position, foodGrid = state
+  foodList = foodGrid.asList()
+  if len(foodList) == 0:
+    return 0
+
+  if 'dist_cache' not in problem.heuristicInfo:
+    problem.heuristicInfo['dist_cache'] = {}
+  dcache = problem.heuristicInfo['dist_cache']
+
+  points = [position] + foodList
+  visited = [points[0]]
+  unvisited = set(points[1:])
+  total_cost = 0
+
+  while unvisited:
+    min_dist = 999999
+    best_u = None
+    for v in visited:
+      for u in unvisited:
+        key = (v, u) if v < u else (u, v)
+        if key in dcache:
+          d = dcache[key]
+        else:
+          d = util.manhattanDistance(v, u)
+          dcache[key] = d
+        if d < min_dist:
+          min_dist = d
+          best_u = u
+    visited.append(best_u)
+    unvisited.remove(best_u)
+    total_cost += min_dist
+
+  return total_cost
   
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
