@@ -19,3 +19,11 @@ fecha,algoritmo,heuristica,problema,costo,longitud,nodos_expandidos,tiempo_segun
 2026-09-23 15:38:03,A*,nullHeuristic,PositionSearchProblem,30,30,33,0.00047
 2026-09-23 15:52:26,A*,manhattanHeuristic,PositionSearchProblem,30,30,33,0.00068
 2026-09-23 15:54:31,A*,euclideanHeuristic,PositionSearchProblem,30,30,33,0.00097
+2026-09-23 19:11:26,A*,manhattanHeuristic,PositionSearchProblem,30,30,33,0.00027
+2026-09-23 19:17:47,UCS,nullHeuristic,mediumMaze,30,30,32,0.00017
+2026-09-23 19:17:47,A*,nullHeuristic (h=0),mediumMaze,30,30,32,0.00027
+2026-09-23 19:17:47,A*,manhattanHeuristic,mediumMaze,30,30,32,0.00017
+2026-09-23 19:17:47,A*,euclideanHeuristic,mediumMaze,30,30,32,0.00025
+2026-09-23 19:17:47,A*,cornersHeuristic,tinyCorners,22,22,77,0.00108
+2026-09-23 19:17:47,A*,foodHeuristicManhattan,tinyCorners,22,22,147,0.00633
+2026-09-23 19:17:47,A*,foodHeuristic (MST),tinyCorners,22,22,77,0.00355

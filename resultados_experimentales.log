@@ -240,3 +240,92 @@ Tiempo de busqueda:     0.00097 s
 Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
 ==================================================
 
+==================================================
+Fecha y Hora:           2026-09-23 19:11:26
+Algoritmo:              A*
+Heuristica:             manhattanHeuristic
+Problema:               PositionSearchProblem
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       33
+Tiempo de busqueda:     0.00027 s
+Ruta encontrada:        ['South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West', 'West']
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              UCS
+Heuristica:             nullHeuristic
+Problema / Layout:      mediumMaze
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       32
+Tiempo de busqueda:     0.00017 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             nullHeuristic (h=0)
+Problema / Layout:      mediumMaze
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       32
+Tiempo de busqueda:     0.00027 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             manhattanHeuristic
+Problema / Layout:      mediumMaze
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       32
+Tiempo de busqueda:     0.00017 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             euclideanHeuristic
+Problema / Layout:      mediumMaze
+Costo del camino (g):   30
+Longitud del camino:    30 pasos
+Nodos expandidos:       32
+Tiempo de busqueda:     0.00025 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             cornersHeuristic
+Problema / Layout:      tinyCorners
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       77
+Tiempo de busqueda:     0.00108 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             foodHeuristicManhattan
+Problema / Layout:      tinyCorners
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       147
+Tiempo de busqueda:     0.00633 s
+==================================================
+
+==================================================
+Fecha y Hora:           2026-09-23 19:17:47
+Algoritmo:              A*
+Heuristica:             foodHeuristic (MST)
+Problema / Layout:      tinyCorners
+Costo del camino (g):   22
+Longitud del camino:    22 pasos
+Nodos expandidos:       77
+Tiempo de busqueda:     0.00355 s
+==================================================
+
